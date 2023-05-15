@@ -14,7 +14,7 @@ pipeline {
                     jenkinsfile.execute(params)*/
 
                     def jenkinsfile = sh(script: "curl -s https://github.com/MafOspina/DevOps/main/Jenkinsfile", returnStdout: true)
-                    jenkinsfile = new GroovyShell().parse(Jenkinsfile)
+                    jenkinsfile = new GroovyShell().parse(jenkinsfile)
                     jenkinsfile.execute(params)
                 }
             }
