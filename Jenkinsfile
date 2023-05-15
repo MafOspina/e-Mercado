@@ -10,7 +10,7 @@ pipeline {
                         string(name: 'PARAM2', value: 'value2')
                     ]
 
-                    def jenkinsfile = load 'https://github.com/MafOspina/DevOps/main/path/to/Jenkinsfile'
+                    def jenkinsfile = load 'https://github.com/MafOspina/DevOps/main/Jenkinsfile'
                     jenkinsfile.execute(params)
                 }
             }
