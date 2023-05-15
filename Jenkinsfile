@@ -11,7 +11,7 @@ pipeline {
                     ]
                     
                     // Llama al paso de construcción del repositorio B y envía los parámetros
-                    step([$class: 'ParameterizedRemoteTrigger', remoteJenkinsName: 'https://github.com/MafOspina/DevOps.git', job: 'job1', propagate: true, parameters: parametros])
+                    step([$class: 'ParameterizedTrigger', remoteJenkinsName: 'https://github.com/MafOspina/DevOps.git', job: 'job1', propagate: true, parameters: parametros])
                 }
             }
         }
