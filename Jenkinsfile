@@ -1,3 +1,3 @@
-@Library('Library2@main') _
+@Library('Library1@main') _
 
 libreria.prueba(msn: 'mafe')
