@@ -1,3 +1,3 @@
 @Library('Library2@main') _
 
-libreria(msn: 'mafe')
+libreria.prueba(msn: 'mafe')
