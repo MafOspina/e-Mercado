@@ -1,3 +1,3 @@
 @Library('Library1@main') _
 
-libreria(msn: 'pruebaaaa', msn2: 'parametro2')
+libreria(msn: 'parametro1', msn2: 'parametro2')
