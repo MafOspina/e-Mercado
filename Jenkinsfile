@@ -1,3 +1,3 @@
 @Library('Library1@feature') _
 
-libreria(projectKey: 'parametro1', projectName: 'parametro2', version: '1.0')
+libreria(projectKey: 'Reto1', projectName: 'Reto1', version: '1.0')
