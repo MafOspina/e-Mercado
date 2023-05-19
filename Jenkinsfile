@@ -1,3 +1,3 @@
 @Library('Library1@feature') _
 
-libreria(projectKey: 'Reto2', projectName: 'Reto2', sonarHome: 'sonarqube', projectVersion: '1.0')
+libreria(projectKey: 'Reto1', projectName: 'Reto1', sonarHome: 'sonarqube', projectVersion: '1.0')
